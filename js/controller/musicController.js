@@ -244,7 +244,7 @@ class MusicController{
     volumeOf(){
 
         this._container.classList.add('muted');
-        this._btnSound.classList.replace('bi-volume-mute-fill', 'bi-volume-up-fill');
+        this._btnSound.classList.replace('bi-volume-up-fill', 'bi-volume-mute-fill');
         this._mainAudio.volume = 0;
     }
 
@@ -253,7 +253,7 @@ class MusicController{
     volumeOn(){
 
         this._container.classList.remove('muted');
-        this._btnSound.classList.replace('bi-volume-up-fill', 'bi-volume-mute-fill');
+        this._btnSound.classList.replace('bi-volume-mute-fill', 'bi-volume-up-fill');
         this._mainAudio.volume = 1;
     }
 
