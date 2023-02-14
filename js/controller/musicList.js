@@ -1,4 +1,5 @@
-//
+// The code is a array that contains several objects, 
+// each object represents a piece of music and has four properties: 'name', 'artist', 'img', 'src'.
 
 let allMusic = [
     {
